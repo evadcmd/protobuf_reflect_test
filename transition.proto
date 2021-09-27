@@ -29,6 +29,7 @@ message Res {
         SUCCESS = 0;
         WARNING = 1;
         FAILED = 2;
+        NOT_RECOMMANDED = -1; // inefficient in Variant codec
     }
     repeated Tag tags = 2;
 }
